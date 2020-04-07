@@ -9,10 +9,10 @@ services:
   - docker
 
 env:
-  - LANTERN_VERSION=4.5.9
+  - LANTERN_VERSION=5.8.5
 
 install:
-  - curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+  - curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
   - sudo apt-get install -y nodejs
   - sudo npm i gulp-cli -g
 
